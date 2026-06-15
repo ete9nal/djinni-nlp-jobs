@@ -129,6 +129,10 @@ poetry run streamlit run app.py
 
 ---
 
+## 🌐 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://arhny4azjzne7eramhwvh6.streamlit.app/)
+
 ## 🛠️ Tech Stack
 
 - **Python 3.11**
