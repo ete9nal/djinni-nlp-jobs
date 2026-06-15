@@ -1,0 +1,36 @@
+[project]
+name = "djinni-nlp-jobs"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ete9nal",email = "ete9nal@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "beautifulsoup4 (>=4.15.0,<5.0.0)",
+    "pandas (<3.0.0)",
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "spacy (>=3.8.14,<4.0.0)",
+    "nltk (>=3.9.4,<4.0.0)",
+    "matplotlib (>=3.11.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "wordcloud (>=1.9.6,<2.0.0)",
+    "lightgbm (>=4.6.0,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.5.7,<8.0.0)",
+    "aiohttp (>=3.14.1,<4.0.0)",
+    "datasets (>=5.0.0,<6.0.0)",
+    "xgboost (>=3.2.0,<4.0.0)",
+    "gensim (>=4.4.0,<5.0.0)",
+    "sentence-transformers (>=5.5.1,<6.0.0)",
+    "numpy (<2.0.0)",
+    "accelerate (>=1.1.0)",
+    "torch (>=2.4.0)",
+    "streamlit (>=1.58.0,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
